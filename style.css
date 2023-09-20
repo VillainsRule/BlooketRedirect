@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700);
+
+body {
+    margin: 0;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    font-family: 'Nunito';
+}
+
+.outerbg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #0bc2cf;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.innerbg {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: 50%;
+    left: 50%;
+    background-size: 550px;
+    opacity: 0.1;
+    background-position: -100px -100px;
+    transform: translate(-50%, -50%) rotate(15deg);
+    background-image: url('https://ac.blooket.com/dashboard/65a43218fd1cabe52bdf1cda34613e9e.png');
+}
+
+.text {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    left: 10%;
+    position: absolute;
+}
+
+h1 {
+    font-family: 'Nunito';
+    font-size: 4em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+input {
+    height: 7.5%;
+    width: 40vw;
+    font-size: 1.5em;;
+    font-family: 'Nunito';
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #e6e6e6;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    height: 7.5%;
+    width: 20vw;
+    font-size: 1.5em;
+    font-family: 'Nunito';
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
