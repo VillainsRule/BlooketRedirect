@@ -4,6 +4,7 @@ document.querySelector('button').onclick = () => {
     let percented = hexCode.replace(/(.{2})/g, '%$1');
     let code = 'https://id.blooket.com/login?n=%' + percented.slice(1);
     navigator.clipboard.writeText(code);
+    console.log(`generated: ${code}`);
     document.querySelector('input').value = '';
     alert('Code generated and copied to clipboard.');
 };
