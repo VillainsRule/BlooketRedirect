@@ -44,18 +44,19 @@ body {
 
 h1 {
     font-family: 'Nunito';
-    font-size: 4em;
+    font-size: 10vh;
     margin: 0;
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 4vh;
+    margin: 0 0 20px 0;
 }
 
 input {
-    height: 7.5%;
+    height: 8vh;
     width: 40vw;
-    font-size: 1.5em;;
+    font-size: 4vh;
     font-family: 'Nunito';
     border: 2px solid white;
     background-color: transparent;
@@ -73,9 +74,9 @@ input:focus {
 }
 
 button {
-    height: 7.5%;
-    width: 20vw;
-    font-size: 1.5em;
+    height: 8vh;
+    width: 30vw;
+    font-size: 4vh;
     font-family: 'Nunito';
     border: 2px solid white;
     background-color: transparent;
